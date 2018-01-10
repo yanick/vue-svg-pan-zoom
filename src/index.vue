@@ -1,11 +1,19 @@
 <template>
     <div>
         <slot />
+        <SvgPanZoomThumbnail v-if="has_thumbnail">
+            <slot name="thumbnail" />
+        </SvgPanZoomThumbnail>
     </div>
 </template>
 
 <script>
 import svg_pan_zoom from 'svg-pan-zoom';
+
+import SvgPanZoomThumbnail from './SvgPanZoomThumbnail.vue';
+export { SvgPanZoomThumbnail } from './SvgPanZoomThumbnail.vue';
+
+import thumbnailViewer from './thumbnailViewer';
 
 let props = {
         'zoomEnabled':               { type: Boolean, default: true },
@@ -33,17 +41,31 @@ let props = {
 
 export const SvgPanZoom = {
     props,
+    components: { SvgPanZoomThumbnail },
+    computed: {
+        has_thumbnail: function() { return this.$slots.thumbnail }
+    },
     mounted: function() {
         let options = {};
 
         Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
         console.log(options);
-        svg_pan_zoom( this.$slots.default[0].elm , options );
+
+        if( this.has_thumbnail ) {
+            console.log( this.$slots.default[0].elm.id );
+            console.log( this.$slots.thumbnail );
+            thumbnailViewer({
+                mainViewId: this.$slots.default[0].elm.id,
+                thumbViewId: 'thumbView',
+            });
+        }
+        else {
+            svg_pan_zoom( this.$slots.default[0].elm , options );
+        }
 //        svg_pan_zoom( '#mainView', options );
     },
 };
 
 export default SvgPanZoom;
 
-export const SvgPanZoomThumbnail = {};
 </script>
