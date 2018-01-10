@@ -31,7 +31,7 @@ let props = {
         , eventsListenerElement: {  }
 };
 
-export default {
+export const SvgPanZoom = {
     props,
     mounted: function() {
         let options = {};
@@ -39,6 +39,11 @@ export default {
         Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
         console.log(options);
         svg_pan_zoom( this.$slots.default[0].elm , options );
+//        svg_pan_zoom( '#mainView', options );
     },
 };
+
+export default SvgPanZoom;
+
+export const SvgPanZoomThumbnail = {};
 </script>
