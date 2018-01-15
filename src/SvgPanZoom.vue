@@ -12,12 +12,21 @@ import props from './props';
 
 export default {
     props,
-    mounted: function() {
-        let options = {};
+    computed: {
+        options: function() {
+            let options = {};
 
-        Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
-        console.log(options);
-        svg_pan_zoom( this.$slots.default[0].elm , options );
+            const is_defined = k => this[k] !== undefined;
+
+            Object.keys(props)
+                .filter( is_defined )
+                .forEach( k => options[k] = this[k] );
+
+            return options;
+        }
+    },
+    mounted: function() {
+        svg_pan_zoom( this.$slots.default[0].elm , this.options );
     },
 };
 
