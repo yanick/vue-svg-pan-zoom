@@ -11,7 +11,7 @@
 
 
 <script>
-import { SvgPanZoom, SvgPanZoomThumbnail } from './index.vue';
+import { SvgPanZoom, SvgPanZoomThumbnail } from './index';
 
 export default {
     components: {  SvgPanZoom, SvgPanZoomThumbnail },

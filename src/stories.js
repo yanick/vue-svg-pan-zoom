@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/vue';
 import { withKnobs, text, number, boolean } from '@storybook/addon-knobs';
-import SvgPanZoom from './index.vue';
+import SvgPanZoom from './index';
 
 import RawTiger from './RawTiger.vue';
 

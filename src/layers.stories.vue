@@ -30,7 +30,7 @@
 
 
 <script>
-import SvgPanZoom from './index.vue';
+import SvgPanZoom from './index';
 
 export default {
     computed: {
