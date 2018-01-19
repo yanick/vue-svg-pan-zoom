@@ -15,7 +15,6 @@
 import { SvgPanZoom, SvgPanZoomThumbnail } from './index.vue';
 import RawTiger from './RawTiger.vue';
 
-console.log(SvgPanZoomThumbnail);
 
 export default {
     components: {  SvgPanZoom, RawTiger, SvgPanZoomThumbnail },
