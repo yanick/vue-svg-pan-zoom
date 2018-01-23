@@ -1,7 +1,7 @@
 # vue-svg-pan-zoom : Vue component for SVG-Pan-Zoom
 
-This module is a very simple [Vue][https://vuejs.org/] component providing the
-goodness of [SVG-Pan-Zoom][https://github.com/ariutta/svg-pan-zoom] for SVG elements.
+This module is a very simple [Vue](https://vuejs.org/) component providing the
+goodness of [SVG-Pan-Zoom](https://github.com/ariutta/svg-pan-zoom) for SVG elements.
 
 /!\ WARNING: the module is young, basic, probably will have its
 API change with no notice, and likely to have

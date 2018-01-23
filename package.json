@@ -1,10 +1,13 @@
 {
   "name": "vue-svg-pan-zoom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue component for svg-pan-zoom",
   "main": "dist/vue-svg-pan-zoom.js",
   "author": "Yanick Champoux",
   "license": "MIT",
+  "keywords": [ "svg", "vuejs" ],
+  "homepage": "https://github.com/yanick/vue-svg-pan-zoom",
+  "bugs": { "url" : "https://github.com/yanick/vue-svg-pan-zoom/issues" },
   "devDependencies": {
     "@storybook/addon-knobs": "^3.3.6",
     "@storybook/addons": "^3.3.6",
