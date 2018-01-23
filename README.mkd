@@ -3,7 +3,8 @@
 This module is a very simple [Vue][] component providing the
 goodness of [SVG-Pan-Zoom][] for SVG elements.
 
-/!\ WARNING: the module is young, basic, and likely to have
+/!\ WARNING: the module is young, basic, probably will have its
+API change with no notice, and likely to have
 bugs. Use at your own risk, send patches for my eternal gratitude.
 
 ## Basic Use
@@ -38,29 +39,29 @@ In a Single File Component:
 
 * `SvgPanZoom` accepts as attributes all `svg-pan-zoom` options:
 
-| attribute | default | 
-| --------- | -------- |
-|zoomEnabled |     true |
-|controlIconsEnabled |   false |
-|fit |         true |
-|panEnabled |  true |
-|dblClickZoomEnabled |  true | 
-|mouseWheelZoomEnabled |  true | 
-|preventMouseEventsDefault |true | 
-|contain |             false | 
-|center |         true | 
-|viewportSelector |             .svg-pan-zoom_viewport |
-|zoomScaleSensitivity |  0.2 |
-|minZoom |             0.5 |
-|maxZoom |              10 |
-|refreshRate |       auto | 
-|beforeZoom |           |
-|onZoom |               |
-|beforePan |            |
-|onPan |                |
-|onUpdatedCTM |         |
-|customEventsHandler |  |
-|eventsListenerElement | |
+    | attribute                 | default                |
+    | ---------                 | --------               |
+    | zoomEnabled               | true                   |
+    | controlIconsEnabled       | false                  |
+    | fit                       | true                   |
+    | panEnabled                | true                   |
+    | dblClickZoomEnabled       | true                   |
+    | mouseWheelZoomEnabled     | true                   |
+    | preventMouseEventsDefault | true                   |
+    | contain                   | false                  |
+    | center                    | true                   |
+    | viewportSelector          | .svg-pan-zoom_viewport |
+    | zoomScaleSensitivity      | 0.2                    |
+    | minZoom                   | 0.5                    |
+    | maxZoom                   | 10                     |
+    | refreshRate               | auto                   |
+    | beforeZoom                |                        |
+    | onZoom                    |                        |
+    | beforePan                 |                        |
+    | onPan                     |                        |
+    | onUpdatedCTM              |                        |
+    | customEventsHandler       |                        |
+    | eventsListenerElement     |                        |
 
 ## Use with thumbnails
 
@@ -71,30 +72,38 @@ In a Single File Component:
             style="width: 300px; height: 500px; border:1px solid black; "
         >
             <svg> ... </svg>
-            <SvgPanZoomThumbnail>
-                <svg> ... </svg>
-            </SvgPanZoomThumbnail>
+            <svg slot="thumbnail" class="thumbViewClass">
+                ...
+            </svg>
         </SvgPanZoom>
     </template>
 
 
     <script>
-        import { SvgPanZoom, SvgPanZoomThumbnail } from 'vue-svg-pan-zoom';
+        import  SvgPanZoom from 'vue-svg-pan-zoom';
 
         export default {
-            components: {  SvgPanZoom, SvgPanZoomThumbnail },
+            components: {  SvgPanZoom },
         };
 
     </script>
 
+    <style>
+        @import 'vue-svg-pan-zoom/dist/vue-svg-pan-zoom.css';
+    </style>
+
+Note that for the css import to work, you'll have to have 
+[postcss-import](https://github.com/postcss/postcss-import)
+installed as a dep.
+
 ### Notes
 
-* Just like the `SvgPanZoom`component, `SvgPanZoomThumbnail` only accepts 
-a `svg` child -- `embed` won't work.
+* Just like the main `SvgPanZoom`component, the `thumbnail` slot needs to 
+be assigned to a `svg` node -- `embed` won't work.
 
 ### Storybook demos
 
-To run [Storybook][] stories duplicating the demos of
+To run [Storybook][https://github.com/storybooks/storybook] stories duplicating the demos of
 the main `SVG-Pan-Zoom` project, do
 
     $ yarn install --dev

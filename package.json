@@ -2,7 +2,7 @@
   "name": "vue-svg-pan-zoom",
   "version": "0.0.1",
   "description": "Vue component for svg-pan-zoom",
-  "main": "index.js",
+  "main": "dist/vue-svg-pan-zoom.js",
   "author": "Yanick Champoux",
   "license": "MIT",
   "devDependencies": {
@@ -23,6 +23,7 @@
     "svg-pan-zoom": "^3.5.3"
   },
   "scripts": {
+    "build": "poi build src/index.js --format cjs --library",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   }
