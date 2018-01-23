@@ -7,7 +7,7 @@
           <line id="line2" stroke="red" stroke-width="2px" x1="0" y1="0" x2="0" y2="0"/>
         </g>
       </svg>
-      <slot />
+        <slot />
 </div>
 </template>
 

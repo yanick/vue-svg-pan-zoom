@@ -1,9 +1,9 @@
 <template>
     <SvgPanZoom
-        style="width: 300px; height: 500px; border:1px solid black; "
+        style="width: 880px; height: 720px; border:1px solid black; "
     >
         <RawTiger /> 
-        <RawTiger slot="thumbnail" id="thumbView" class="thumbViewClass" 
+        <RawTiger slot="thumbnail" class="thumbViewClass" 
             style="position: absolute; width: 20%; height: 30% bottom: 5px;
             left: 5px; margin: 3px; padding: 3px;"
             /> 
@@ -12,7 +12,7 @@
 
 
 <script>
-import { SvgPanZoom, SvgPanZoomThumbnail } from './index.vue';
+import { SvgPanZoom, SvgPanZoomThumbnail } from './index';
 import RawTiger from './RawTiger.vue';
 
 

@@ -14,5 +14,5 @@ const stories = storiesOf('SvgPanZoom', module)
     () => SingleStory
 )
 .add( 'layers', () => LayerStory )
-.add( 'thumbnail', () => ThumbnailStory )
+.add( 'thumbnail -- needs to be first story loaded to work', () => ThumbnailStory )
 ;
