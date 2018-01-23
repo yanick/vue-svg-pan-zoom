@@ -1,7 +1,7 @@
 # vue-svg-pan-zoom : Vue component for SVG-Pan-Zoom
 
-This module is a very simple [Vue][] component providing the
-goodness of [SVG-Pan-Zoom][] for SVG elements.
+This module is a very simple [Vue][https://vuejs.org/] component providing the
+goodness of [SVG-Pan-Zoom][https://github.com/ariutta/svg-pan-zoom] for SVG elements.
 
 /!\ WARNING: the module is young, basic, probably will have its
 API change with no notice, and likely to have
@@ -96,14 +96,12 @@ Note that for the css import to work, you'll have to have
 [postcss-import](https://github.com/postcss/postcss-import)
 installed as a dep.
 
-### Notes
-
-* Just like the main `SvgPanZoom`component, the `thumbnail` slot needs to 
+Also, just like the main `SvgPanZoom`component, the `thumbnail` slot needs to 
 be assigned to a `svg` node -- `embed` won't work.
 
 ### Storybook demos
 
-To run [Storybook][https://github.com/storybooks/storybook] stories duplicating the demos of
+To run [Storybook](https://github.com/storybooks/storybook) stories duplicating the demos of
 the main `SVG-Pan-Zoom` project, do
 
     $ yarn install --dev
