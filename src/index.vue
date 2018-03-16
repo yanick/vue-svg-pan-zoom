@@ -54,13 +54,14 @@ export const SvgPanZoom = {
         if( this.has_thumbnail ) {
             console.log( this.$slots.default[0].elm.id );
             console.log( this.$slots.thumbnail );
-            thumbnailViewer({
+            let svgpanzoom = thumbnailViewer({
                 mainViewId: this.$slots.default[0].elm.id,
                 thumbViewId: 'thumbView',
             });
+            console.log(svgpanzoom);
         }
         else {
-            svg_pan_zoom( this.$slots.default[0].elm , options );
+            let svgpanzoom = svg_pan_zoom( this.$slots.default[0].elm , options );
         }
 //        svg_pan_zoom( '#mainView', options );
     },

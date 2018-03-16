@@ -191,5 +191,7 @@ export default function(options){
         }
 
     }, false);
+
+    return main;
 };
 

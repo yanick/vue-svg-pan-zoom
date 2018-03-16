@@ -38,16 +38,21 @@ export default {
 
         Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
 
+        let svgpanzoom;
         if( this.has_thumbnail ) {
             this.$slots.thumbnail[0].elm.id  = 'thumbView';
-            thumbnailViewer({
+            svgpanzoom = thumbnailViewer({
                 mainViewId: this.$slots.default[0].elm.id,
                 thumbViewId: 'thumbView',
             });
         }
         else {
-            svg_pan_zoom( this.$slots.default[0].elm , options );
+            svgpanzoom = svg_pan_zoom( this.$slots.default[0].elm , options );
         }
+
+        this.$emit( 'svgpanzoom', svgpanzoom );
+
+        console.log(svgpanzoom);
     },
 };
 
