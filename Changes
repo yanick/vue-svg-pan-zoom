@@ -1,0 +1,9 @@
+Release history for vue-svg-pan-zoom
+
+v0.1.0 2018-03-24
+
+- component can now access the underlying svgpanzoom js object. (GH#1)
+
+
+
+
