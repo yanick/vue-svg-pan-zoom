@@ -49,18 +49,15 @@ export const SvgPanZoom = {
         let options = {};
 
         Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
-        console.log(options);
 
         if( this.has_thumbnail ) {
-            console.log( this.$slots.default[0].elm.id );
-            console.log( this.$slots.thumbnail );
-            thumbnailViewer({
+            let svgpanzoom = thumbnailViewer({
                 mainViewId: this.$slots.default[0].elm.id,
                 thumbViewId: 'thumbView',
             });
         }
         else {
-            svg_pan_zoom( this.$slots.default[0].elm , options );
+            let svgpanzoom = svg_pan_zoom( this.$slots.default[0].elm , options );
         }
 //        svg_pan_zoom( '#mainView', options );
     },

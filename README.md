@@ -35,9 +35,11 @@ In a Single File Component:
 
 ### Notes
 
-* currently the `SvgPanZoom` component only works with a `svg` child -- `embed` won't work.
+Currently the `SvgPanZoom` component only works with a `svg` child -- `embed` won't work.
 
-* `SvgPanZoom` accepts as attributes all `svg-pan-zoom` options:
+### Props
+
+`SvgPanZoom` accepts as props all `svg-pan-zoom` options:
 
     | attribute                 | default                |
     | ---------                 | --------               |
@@ -62,6 +64,45 @@ In a Single File Component:
     | onUpdatedCTM              |                        |
     | customEventsHandler       |                        |
     | eventsListenerElement     |                        |
+
+### svgpanzoom object
+
+To access the created `svgpanzoom` javascript object, you can 
+listen to the `svgpanzoom` event on the `SvgPanZoom` component.
+
+```js
+<template>
+    <div>
+        <input type="button" value="center me" @click="center" />
+        <SvgPanZoom style="width: 500px; height: 500px; border:1px solid black;"
+            :fit="false"
+            @svgpanzoom="registerSvgPanZoom"
+        >
+            <RawTiger />
+        </SvgPanZoom>
+    </div>
+</template>
+
+<script>
+import RawTiger from './RawTiger.vue';
+import SvgPanZoom from 'vue-svg-pan-zoom';
+
+export default {
+    components: {  SvgPanZoom, RawTiger },
+    data: () => ({ svgpanzoom: null }),
+    methods: {
+        registerSvgPanZoom(svgpanzoom) {
+            this.svgpanzoom = svgpanzoom;
+        },
+        center() {
+            if( !this.svgpanzoom ) return;
+
+            this.svgpanzoom.center();
+        }
+    },
+}
+</script>
+```
 
 ## Use with thumbnails
 
