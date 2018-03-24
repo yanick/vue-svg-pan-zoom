@@ -51,8 +51,6 @@ export default {
         }
 
         this.$emit( 'svgpanzoom', svgpanzoom );
-
-        console.log(svgpanzoom);
     },
 };
 
