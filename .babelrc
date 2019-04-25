@@ -1,7 +1,6 @@
 {
-    "plugins":
-    ["transform-decorators-legacy","transform-class-properties","transform-function-bind",],
+    "plugins": [],
     "presets":[
-        "es2015", "stage-1", "stage-0"
+        "@babel/preset-env"
     ]
 }

@@ -1,26 +1,55 @@
 <template>
- <div id="thumbViewContainer">
-      <svg id="scopeContainer" class="thumbViewClass">
-        <g>
-          <rect id="scope" fill="red" fill-opacity="0.1" stroke="red" stroke-width="2px" x="0" y="0" width="0" height="0"/>
-          <line id="line1" stroke="red" stroke-width="2px" x1="0" y1="0" x2="0" y2="0"/>
-          <line id="line2" stroke="red" stroke-width="2px" x1="0" y1="0" x2="0" y2="0"/>
-        </g>
-      </svg>
-        <slot />
+ <div v-on:wheel="zoomMain">
+            <SPZ class="thumbnail"
+                :zoomEnabled="false"
+                :panEnabled="false"
+                :controlIconsEnabled="false"
+                :dblClickZoomEnabled="false"
+                :preventMouseEventsDefault="true"
+                v-on:svgpanzoom="thumbnailSPZcreated"
+                >
+                <slot class="thumbnail" />
+            </SPZ>
+     <Scope :bus="bus" :mainSPZ="mainSPZ" :thumbnailSPZ="thumbnailSPZ" />
 </div>
 </template>
 
 <script>
+import Scope from './Scope.vue';
 
-export const SvgPanZoomThumbnail = {};
-export default SvgPanZoomThumbnail;
+export default {
+    props: [ 'onThumbnailShown', 'mainSPZ', 'bus' ],
+    beforeCreate: function () {
+       this.$options.components.SPZ = require('./SvgPanZoom.vue').default
+    },
+    methods: {
+        zoomMain(evt) {
+            this.mainSPZ[ event.deltaY < 0 ? 'zoomIn' : 'zoomOut' ]();
+        },
+        thumbnailSPZcreated(spz) {
+            this.thumbnailSPZ = spz;
+            this.bus.$emit( 'thumbnailCreated', spz );
+        },
+    },
+    mounted() {
+        if( this.onThumbnailShown ) {
+           this.onThumbnailShown();
+        }
+    },
+    components: { Scope },
+    data: () => ({ thumbnailSPZ: null })
+};
 
 </script>
 
 <style>
-    .thumbViewClass {
-        border: 1px solid black;
+
+      .thumbView {
+        z-index: 110;
+        background: white;
+      }
+
+    .thumbnail {
         position: absolute;
         bottom: 5px;
         left: 5px;
@@ -29,14 +58,12 @@ export default SvgPanZoomThumbnail;
         margin: 3px;
         padding: 3px;
         overflow: hidden;
-      }
-
-      #thumbView {
-        z-index: 110;
-        background: white;
-      }
-
-      #scopeContainer {
         z-index: 120;
       }
+
+      .thumbnail svg {
+          width: 100% !important;
+          height: 100% !important;
+      }
+
 </style>

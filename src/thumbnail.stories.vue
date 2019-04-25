@@ -1,12 +1,10 @@
 <template>
     <SvgPanZoom
         style="width: 880px; height: 720px; border:1px solid black; "
+        :onThumbnailShown="honk"
     >
-        <RawTiger /> 
-        <RawTiger slot="thumbnail" class="thumbViewClass" 
-            style="position: absolute; width: 20%; height: 30% bottom: 5px;
-            left: 5px; margin: 3px; padding: 3px;"
-            /> 
+        <RawTiger />
+        <RawTiger slot="thumbnail" />
     </SvgPanZoom>
 </template>
 
@@ -18,6 +16,9 @@ import RawTiger from './RawTiger.vue';
 
 export default {
     components: {  SvgPanZoom, RawTiger, SvgPanZoomThumbnail },
+    methods: {
+        honk(){ console.log( "thumbnail was mounted!" ) }
+    },
 };
 
 </script>

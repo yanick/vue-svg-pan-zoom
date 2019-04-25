@@ -14,5 +14,5 @@ const stories = storiesOf('SvgPanZoom', module)
 .add('single inline SVG', () => SingleStory)
 .add('event', () => Event )
 .add( 'layers', () => LayerStory )
-.add( 'thumbnail -- needs to be first story loaded to work', () => ThumbnailStory )
+.add( 'thumbnail', () => ThumbnailStory )
 ;

@@ -1,10 +1,16 @@
 <template>
-    <div>
-        <slot />
-        <SvgPanZoomThumbnail v-if="has_thumbnail">
-            <slot name="thumbnail" />
-        </SvgPanZoomThumbnail>
-    </div>
+<div>
+    <slot />
+
+    <SvgPanZoomThumbnail v-if="has_thumbnail"
+        :onThumbnailShown="onThumbnailShown"
+        :mainSPZ="spz"
+        :bus="bus"
+    >
+        <slot name="thumbnail" />
+    </SvgPanZoomThumbnail>
+
+</div>
 </template>
 
 
@@ -13,7 +19,8 @@ import svg_pan_zoom from 'svg-pan-zoom';
 
 import props from './props';
 
-import thumbnailViewer from './thumbnailViewer';
+import { EventBus } from './EventBus';
+
 import SvgPanZoomThumbnail from './SvgPanZoomThumbnail.vue';
 
 export default {
@@ -38,20 +45,21 @@ export default {
 
         Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
 
-        let svgpanzoom;
-        if( this.has_thumbnail ) {
-            this.$slots.thumbnail[0].elm.id  = 'thumbView';
-            svgpanzoom = thumbnailViewer({
-                mainViewId: this.$slots.default[0].elm.id,
-                thumbViewId: 'thumbView',
-            });
-        }
-        else {
-            svgpanzoom = svg_pan_zoom( this.$slots.default[0].elm , options );
-        }
+        options.onZoom = (...args) => {
+            this.bus.$emit( 'mainZoom' );
+            if( this.onZoom ) this.onZoom(args);
+        };
 
-        this.$emit( 'svgpanzoom', svgpanzoom );
+        options.onPan = (...args) => {
+            this.bus.$emit( 'mainPan' );
+            if( this.onPan ) this.onPan(args);
+        };
+
+        this.spz = svg_pan_zoom( this.$slots.default[0].elm , options );
+
+        this.$emit( 'svgpanzoom', this.spz );
     },
+    data: () => ({ spz: null, bus: EventBus() }),
 };
 
 </script>

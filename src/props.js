@@ -19,6 +19,7 @@ export default {
         , onPan:                     { }
         , onUpdatedCTM:              { }
         , customEventsHandler:   { }
-        , eventsListenerElement: {  }
+        , eventsListenerElement: {  },
+        onThumbnailShown: { },
 };
 
