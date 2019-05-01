@@ -3,6 +3,7 @@ Release history for vue-svg-pan-zoom
 v1.0.0 2019-04-30
 
 - reworks thumbnail logic to be more vue-like.
+- upgrade svg-pan-zoom dependency to 3.6.0.
 
 v0.1.0 2018-03-24
 

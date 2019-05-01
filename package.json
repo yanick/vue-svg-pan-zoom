@@ -28,7 +28,7 @@
     "vue-template-compiler": "^2.5.13"
   },
   "dependencies": {
-    "svg-pan-zoom": "^3.5.3"
+    "svg-pan-zoom": "^3.6.0"
   },
   "scripts": {
     "build": "poi build src/index.js --format cjs --library",
