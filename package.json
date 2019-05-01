@@ -1,6 +1,6 @@
 {
   "name": "vue-svg-pan-zoom",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Vue component for svg-pan-zoom",
   "main": "dist/index.js",
   "author": "Yanick Champoux",
