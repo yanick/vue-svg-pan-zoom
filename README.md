@@ -113,31 +113,20 @@ In a Single File Component:
             style="width: 300px; height: 500px; border:1px solid black; "
         >
             <svg> ... </svg>
-            <svg slot="thumbnail" class="thumbViewClass">
-                ...
-            </svg>
+            <svg slot="thumbnail"> ...  </svg>
         </SvgPanZoom>
     </template>
 
-
     <script>
-        import  SvgPanZoom from 'vue-svg-pan-zoom';
+        import SvgPanZoom from 'vue-svg-pan-zoom';
 
         export default {
-            components: {  SvgPanZoom },
+            components: { SvgPanZoom },
         };
 
     </script>
 
-    <style>
-        @import 'vue-svg-pan-zoom/dist/vue-svg-pan-zoom.css';
-    </style>
-
-Note that for the css import to work, you'll have to have 
-[postcss-import](https://github.com/postcss/postcss-import)
-installed as a dep.
-
-Also, just like the main `SvgPanZoom`component, the `thumbnail` slot needs to 
+Just like the main `SvgPanZoom`component, the `thumbnail` slot needs to 
 be assigned to a `svg` node -- `embed` won't work.
 
 ### Storybook demos

@@ -10,12 +10,12 @@
 
 
 <script>
-import { SvgPanZoom, SvgPanZoomThumbnail } from './index';
+import { SvgPanZoom } from './index';
 import RawTiger from './RawTiger.vue';
 
 
 export default {
-    components: {  SvgPanZoom, RawTiger, SvgPanZoomThumbnail },
+    components: {  SvgPanZoom, RawTiger },
     methods: {
         honk(){ console.log( "thumbnail was mounted!" ) }
     },
