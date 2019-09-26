@@ -23,43 +23,56 @@ import { EventBus } from './EventBus';
 
 import SvgPanZoomThumbnail from './SvgPanZoomThumbnail.vue';
 
+import { SvgPanZoomApi } from './SvgPanZoomApi';
+
 export default {
-    props,
-    components: { SvgPanZoomThumbnail },
-    computed: {
-        has_thumbnail: function() { return this.$slots.thumbnail },
-        options: function() {
-            let options = {};
+  components: { SvgPanZoomThumbnail },
+  props,
+  computed: {
+    has_thumbnail: function() { return this.$slots.thumbnail },
+    options: function() {
+      let options = {};
 
-            const is_defined = k => this[k] !== undefined;
+      const is_defined = k => this[k] !== undefined;
 
-            Object.keys(props)
-                .filter( is_defined )
-                .forEach( k => options[k] = this[k] );
+      Object.keys(props)
+        .filter( is_defined )
+        .forEach( k => options[k] = this[k] );
 
-            return options;
-        }
+      return options;
+    }
+  },
+  data: () => ({
+    spz: null,
+    bus: EventBus()
+  }),
+  mounted: function() {
+    let options = {};
+
+    Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
+
+    options.onZoom = (...args) => {
+      this.bus.$emit( 'mainZoom' );
+      if( this.onZoom ) this.onZoom(args);
+    };
+
+    options.onPan = (...args) => {
+      this.bus.$emit( 'mainPan' );
+      if( this.onPan ) this.onPan(args);
+    };
+
+    this.spz = svg_pan_zoom( this.$slots.default[0].elm , options );
+
+    this.$emit( 'svgpanzoom', this.spz );
+  },
+  methods: {
+    zoom: function( v ){
+      this.spz.zoom( v );
     },
-    mounted: function() {
-        let options = {};
-
-        Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
-
-        options.onZoom = (...args) => {
-            this.bus.$emit( 'mainZoom' );
-            if( this.onZoom ) this.onZoom(args);
-        };
-
-        options.onPan = (...args) => {
-            this.bus.$emit( 'mainPan' );
-            if( this.onPan ) this.onPan(args);
-        };
-
-        this.spz = svg_pan_zoom( this.$slots.default[0].elm , options );
-
-        this.$emit( 'svgpanzoom', this.spz );
-    },
-    data: () => ({ spz: null, bus: EventBus() }),
+    zoomBy: function( v ){
+      this.spz.zoomBy( v );
+    }
+  }
 };
 
 </script>
