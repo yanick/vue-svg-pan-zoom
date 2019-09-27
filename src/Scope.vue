@@ -1,12 +1,33 @@
 <template>
-      <svg class="thumbViewClass" @click="updateMainViewPan" @mousemove="updateMainViewPan">
-          <rect class="scope" :x="x" :y="y" :width="width" :height="height"/>
-      </svg>
+  <svg class="thumbViewClass" @click="updateMainViewPan" @mousemove="updateMainViewPan">
+    <rect class="scope" :x="x" :y="y" :width="width" :height="height"/>
+  </svg>
 </template>
 
-<script>
+<style scoped>
+  .scope {
+    fill: red;
+    fill-opacity: 0.1;
+    stroke: red;
+    stroke-width: 2px;
+  }
 
-function updateScope(){
+  svg.thumbViewClass {
+    border: 1px solid black;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 20%;
+    height: 30%;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    z-index: 120;
+  }
+</style>
+
+<script>
+  function updateScope(){
     let main = this.mainSPZ;
     let thumb = this.thumbnailSPZ;
 
@@ -32,12 +53,12 @@ function updateScope(){
     this.y = scopeY + 1;
     this.width = scopeWidth - 2;
     this.height = scopeHeight - 2;
-};
+  };
 
 
-function updateMainViewPan(evt){
+  function updateMainViewPan(evt){
     if(evt.which == 0 && evt.button == 0){
-        return false;
+      return false;
     }
 
     let main = this.mainSPZ;
@@ -56,46 +77,22 @@ function updateMainViewPan(evt){
     var mainPanX = - thumbPanX * mainZoom / thumbZoom;
     var mainPanY = - thumbPanY * mainZoom / thumbZoom;
     main.pan({x:mainPanX, y:mainPanY});
-}
+  }
 
-export default {
+  export default {
     props: [ 'bus', 'mainSPZ', 'thumbnailSPZ' ],
     data: () => ({ x: 0, y: 0, width: 0, height: 0 }),
     watch: {
-        mainSPZ() { updateScope.call(this) },
-        thumbnailSPZ() { updateScope.call(this) },
+      mainSPZ() { updateScope.call(this) },
+      thumbnailSPZ() { updateScope.call(this) },
     },
     mounted() {
-        const up = updateScope.bind(this);
-        [ 'mainZoom', 'mainPan', 'thumbnailCreated' ].forEach( event => this.bus.$on( event, up )
-        );
-        up();
+      const up = updateScope.bind(this);
+      [ 'mainZoom', 'mainPan', 'thumbnailCreated' ].forEach( event => this.bus.$on( event, up ) );
+      up();
     },
     methods: {
-        updateMainViewPan
+      updateMainViewPan
     }
-};
-
+  };
 </script>
-
-<style scoped>
-    .scope {
-        fill: red;
-        fill-opacity: 0.1;
-        stroke: red;
-        stroke-width: 2px;
-    }
-
-    svg.thumbViewClass {
-        border: 1px solid black;
-        position: absolute;
-        bottom: 5px;
-        left: 5px;
-        width: 20%;
-        height: 30%;
-        margin: 3px;
-        padding: 3px;
-        overflow: hidden;
-        z-index: 120;
-      }
-</style>
