@@ -87,10 +87,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"165a645e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=template&id=4c74502b&scoped=true&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"165a645e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=template&id=4c74502b&scoped=true& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a85af55-vue-loader-template\"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=template&id=4c74502b&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a85af55-vue-loader-template"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=template&id=4c74502b&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -123,10 +123,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"165a645e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=template&id=806a3476&":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"165a645e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoom.vue?vue&type=template&id=806a3476& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a85af55-vue-loader-template\"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=template&id=806a3476&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a85af55-vue-loader-template"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoom.vue?vue&type=template&id=806a3476& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -168,10 +168,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"165a645e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652&":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"165a645e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a85af55-vue-loader-template\"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a85af55-vue-loader-template"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -222,10 +222,135 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "\n.scope[data-v-4c74502b] {\n  fill: red;\n  fill-opacity: 0.1;\n  stroke: red;\n  stroke-width: 2px;\n}\nsvg.thumbViewClass[data-v-4c74502b] {\n  border: 1px solid black;\n  position: absolute;\n  bottom: 5px;\n  left: 5px;\n  width: 20%;\n  height: 30%;\n  margin: 3px;\n  padding: 3px;\n  overflow: hidden;\n  z-index: 120;\n}\n", "", {"version":3,"sources":["/home/yanick/work/javascript/vue-svg-pan-zoom/src/src/Scope.vue"],"names":[],"mappings":";AAOA;EACA,UAAA;EACA,kBAAA;EACA,YAAA;EACA,kBAAA;CACA;AAEA;EACA,wBAAA;EACA,mBAAA;EACA,YAAA;EACA,UAAA;EACA,WAAA;EACA,YAAA;EACA,YAAA;EACA,aAAA;EACA,iBAAA;EACA,aAAA;CACA","file":"Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&","sourcesContent":["<template>\n  <svg class=\"thumbViewClass\" @click=\"updateMainViewPan\" @mousemove=\"updateMainViewPan\">\n    <rect class=\"scope\" :x=\"x\" :y=\"y\" :width=\"width\" :height=\"height\"/>\n  </svg>\n</template>\n\n<style scoped>\n  .scope {\n    fill: red;\n    fill-opacity: 0.1;\n    stroke: red;\n    stroke-width: 2px;\n  }\n\n  svg.thumbViewClass {\n    border: 1px solid black;\n    position: absolute;\n    bottom: 5px;\n    left: 5px;\n    width: 20%;\n    height: 30%;\n    margin: 3px;\n    padding: 3px;\n    overflow: hidden;\n    z-index: 120;\n  }\n</style>\n\n<script>\n  function updateScope(){\n    let main = this.mainSPZ;\n    let thumb = this.thumbnailSPZ;\n\n    if( !main || !thumb ) return;\n\n    let mainPanX   = main.getPan().x\n    , mainPanY   = main.getPan().y\n    , mainWidth  = main.getSizes().width\n    , mainHeight = main.getSizes().height\n    , mainZoom   = main.getSizes().realZoom\n    , thumbPanX  = thumb.getPan().x\n    , thumbPanY  = thumb.getPan().y\n    , thumbZoom  = thumb.getSizes().realZoom;\n\n    let thumByMainZoomRatio =  thumbZoom / mainZoom;\n\n    let scopeX = thumbPanX - mainPanX * thumByMainZoomRatio;\n    let scopeY = thumbPanY - mainPanY * thumByMainZoomRatio;\n    let scopeWidth = mainWidth * thumByMainZoomRatio;\n    let scopeHeight = mainHeight * thumByMainZoomRatio;\n\n    this.x = scopeX + 1;\n    this.y = scopeY + 1;\n    this.width = scopeWidth - 2;\n    this.height = scopeHeight - 2;\n  };\n\n\n  function updateMainViewPan(evt){\n    if(evt.which == 0 && evt.button == 0){\n      return false;\n    }\n\n    let main = this.mainSPZ;\n    let thumb = this.thumbnailSPZ;\n\n    let dim = this.$el.getBoundingClientRect()\n    , mainWidth   = main.getSizes().width\n    , mainHeight  = main.getSizes().height\n    , mainZoom    = main.getSizes().realZoom\n    , thumbWidth  = thumb.getSizes().width\n    , thumbHeight = thumb.getSizes().height\n    , thumbZoom =  thumb.getSizes().realZoom;\n\n    var thumbPanX = evt.clientX - dim.left - thumbWidth / 2;\n    var thumbPanY = evt.clientY - dim.top - thumbHeight / 2;\n    var mainPanX = - thumbPanX * mainZoom / thumbZoom;\n    var mainPanY = - thumbPanY * mainZoom / thumbZoom;\n    main.pan({x:mainPanX, y:mainPanY});\n  }\n\n  export default {\n    props: [ 'bus', 'mainSPZ', 'thumbnailSPZ' ],\n    data: () => ({ x: 0, y: 0, width: 0, height: 0 }),\n    watch: {\n      mainSPZ() { updateScope.call(this) },\n      thumbnailSPZ() { updateScope.call(this) },\n    },\n    mounted() {\n      const up = updateScope.bind(this);\n      [ 'mainZoom', 'mainPan', 'thumbnailCreated' ].forEach( event => this.bus.$on( event, up ) );\n      up();\n    },\n    methods: {\n      updateMainViewPan\n    }\n  };\n</script>\n"],"sourceRoot":""}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "\n.thumbView {\n  z-index: 110;\n  background: white;\n}\n.thumbnail {\n  position: absolute;\n  bottom: 5px;\n  left: 5px;\n  width: 20%;\n  height: 30%;\n  margin: 3px;\n  padding: 3px;\n  overflow: hidden;\n  z-index: 120;\n}\n.thumbnail svg {\n  width: 100% !important;\n  height: 100% !important;\n}\n", "", {"version":3,"sources":["/home/yanick/work/javascript/vue-svg-pan-zoom/src/src/SvgPanZoomThumbnail.vue"],"names":[],"mappings":";AAiBA;EACA,aAAA;EACA,kBAAA;CACA;AAEA;EACA,mBAAA;EACA,YAAA;EACA,UAAA;EACA,WAAA;EACA,YAAA;EACA,YAAA;EACA,aAAA;EACA,iBAAA;EACA,aAAA;CACA;AAEA;EACA,uBAAA;EACA,wBAAA;CACA","file":"SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&","sourcesContent":["<template>\n  <div v-on:wheel=\"zoomMain\">\n    <SPZ class=\"thumbnail\"\n      :zoomEnabled=\"false\"\n      :panEnabled=\"false\"\n      :controlIconsEnabled=\"false\"\n      :dblClickZoomEnabled=\"false\"\n      :preventMouseEventsDefault=\"true\"\n      v-on:svgpanzoom=\"thumbnailSPZcreated\"\n    >\n      <slot class=\"thumbnail\" />\n    </SPZ>\n    <Scope :bus=\"bus\" :mainSPZ=\"mainSPZ\" :thumbnailSPZ=\"thumbnailSPZ\" />\n  </div>\n</template>\n\n<style>\n  .thumbView {\n    z-index: 110;\n    background: white;\n  }\n\n  .thumbnail {\n    position: absolute;\n    bottom: 5px;\n    left: 5px;\n    width: 20%;\n    height: 30%;\n    margin: 3px;\n    padding: 3px;\n    overflow: hidden;\n    z-index: 120;\n  }\n\n  .thumbnail svg {\n    width: 100% !important;\n    height: 100% !important;\n  }\n</style>\n\n<script>\nimport Scope from './Scope.vue';\n\nexport default {\n  components: { Scope },\n  props: [ 'onThumbnailShown', 'mainSPZ', 'bus' ],\n  data: () => ({ thumbnailSPZ: null }),\n  beforeCreate: function () {\n    this.$options.components.SPZ = require('./SvgPanZoom.vue').default\n  },\n  methods: {\n    zoomMain(evt) {\n      this.mainSPZ[ event.deltaY < 0 ? 'zoomIn' : 'zoomOut' ]();\n    },\n    thumbnailSPZcreated(spz) {\n      this.thumbnailSPZ = spz;\n      this.bus.$emit( 'thumbnailCreated', spz );\n    },\n  },\n  mounted() {\n    if( this.onThumbnailShown ) {\n      this.onThumbnailShown();\n    }\n  }\n};\n</script>\n"],"sourceRoot":""}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -342,10 +467,10 @@ function updateMainViewPan(evt) {
 
 /***/ }),
 
-/***/ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoom.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoom.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -453,10 +578,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -535,126 +660,108 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/poi/node_modules/css-loader/lib/css-base.js */ "./node_modules/poi/node_modules/css-loader/lib/css-base.js")(true);
-// imports
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
+/* globals __VUE_SSR_CONTEXT__ */
 
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
 
-// module
-exports.push([module.i, "\n.scope[data-v-4c74502b] {\n  fill: red;\n  fill-opacity: 0.1;\n  stroke: red;\n  stroke-width: 2px;\n}\nsvg.thumbViewClass[data-v-4c74502b] {\n  border: 1px solid black;\n  position: absolute;\n  bottom: 5px;\n  left: 5px;\n  width: 20%;\n  height: 30%;\n  margin: 3px;\n  padding: 3px;\n  overflow: hidden;\n  z-index: 120;\n}\n", "", {"version":3,"sources":["/mnt/c/Users/aless/Desktop/vue-svg-pan-zoom/src/src/Scope.vue"],"names":[],"mappings":";AAOA;EACA,UAAA;EACA,kBAAA;EACA,YAAA;EACA,kBAAA;CACA;AAEA;EACA,wBAAA;EACA,mBAAA;EACA,YAAA;EACA,UAAA;EACA,WAAA;EACA,YAAA;EACA,YAAA;EACA,aAAA;EACA,iBAAA;EACA,aAAA;CACA","file":"Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&","sourcesContent":["<template>\n  <svg class=\"thumbViewClass\" @click=\"updateMainViewPan\" @mousemove=\"updateMainViewPan\">\n    <rect class=\"scope\" :x=\"x\" :y=\"y\" :width=\"width\" :height=\"height\"/>\n  </svg>\n</template>\n\n<style scoped>\n  .scope {\n    fill: red;\n    fill-opacity: 0.1;\n    stroke: red;\n    stroke-width: 2px;\n  }\n\n  svg.thumbViewClass {\n    border: 1px solid black;\n    position: absolute;\n    bottom: 5px;\n    left: 5px;\n    width: 20%;\n    height: 30%;\n    margin: 3px;\n    padding: 3px;\n    overflow: hidden;\n    z-index: 120;\n  }\n</style>\n\n<script>\n  function updateScope(){\n    let main = this.mainSPZ;\n    let thumb = this.thumbnailSPZ;\n\n    if( !main || !thumb ) return;\n\n    let mainPanX   = main.getPan().x\n    , mainPanY   = main.getPan().y\n    , mainWidth  = main.getSizes().width\n    , mainHeight = main.getSizes().height\n    , mainZoom   = main.getSizes().realZoom\n    , thumbPanX  = thumb.getPan().x\n    , thumbPanY  = thumb.getPan().y\n    , thumbZoom  = thumb.getSizes().realZoom;\n\n    let thumByMainZoomRatio =  thumbZoom / mainZoom;\n\n    let scopeX = thumbPanX - mainPanX * thumByMainZoomRatio;\n    let scopeY = thumbPanY - mainPanY * thumByMainZoomRatio;\n    let scopeWidth = mainWidth * thumByMainZoomRatio;\n    let scopeHeight = mainHeight * thumByMainZoomRatio;\n\n    this.x = scopeX + 1;\n    this.y = scopeY + 1;\n    this.width = scopeWidth - 2;\n    this.height = scopeHeight - 2;\n  };\n\n\n  function updateMainViewPan(evt){\n    if(evt.which == 0 && evt.button == 0){\n      return false;\n    }\n\n    let main = this.mainSPZ;\n    let thumb = this.thumbnailSPZ;\n\n    let dim = this.$el.getBoundingClientRect()\n    , mainWidth   = main.getSizes().width\n    , mainHeight  = main.getSizes().height\n    , mainZoom    = main.getSizes().realZoom\n    , thumbWidth  = thumb.getSizes().width\n    , thumbHeight = thumb.getSizes().height\n    , thumbZoom =  thumb.getSizes().realZoom;\n\n    var thumbPanX = evt.clientX - dim.left - thumbWidth / 2;\n    var thumbPanY = evt.clientY - dim.top - thumbHeight / 2;\n    var mainPanX = - thumbPanX * mainZoom / thumbZoom;\n    var mainPanY = - thumbPanY * mainZoom / thumbZoom;\n    main.pan({x:mainPanX, y:mainPanY});\n  }\n\n  export default {\n    props: [ 'bus', 'mainSPZ', 'thumbnailSPZ' ],\n    data: () => ({ x: 0, y: 0, width: 0, height: 0 }),\n    watch: {\n      mainSPZ() { updateScope.call(this) },\n      thumbnailSPZ() { updateScope.call(this) },\n    },\n    mounted() {\n      const up = updateScope.bind(this);\n      [ 'mainZoom', 'mainPan', 'thumbnailCreated' ].forEach( event => this.bus.$on( event, up ) );\n      up();\n    },\n    methods: {\n      updateMainViewPan\n    }\n  };\n</script>\n"],"sourceRoot":""}]);
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
 
-// exports
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
 
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
 
-/***/ }),
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
 
-/***/ "./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
+      : injectStyles
+  }
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/poi/node_modules/css-loader/lib/css-base.js */ "./node_modules/poi/node_modules/css-loader/lib/css-base.js")(true);
-// imports
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functioal component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
 
-
-// module
-exports.push([module.i, "\n.thumbView {\n  z-index: 110;\n  background: white;\n}\n.thumbnail {\n  position: absolute;\n  bottom: 5px;\n  left: 5px;\n  width: 20%;\n  height: 30%;\n  margin: 3px;\n  padding: 3px;\n  overflow: hidden;\n  z-index: 120;\n}\n.thumbnail svg {\n  width: 100% !important;\n  height: 100% !important;\n}\n", "", {"version":3,"sources":["/mnt/c/Users/aless/Desktop/vue-svg-pan-zoom/src/src/SvgPanZoomThumbnail.vue"],"names":[],"mappings":";AAiBA;EACA,aAAA;EACA,kBAAA;CACA;AAEA;EACA,mBAAA;EACA,YAAA;EACA,UAAA;EACA,WAAA;EACA,YAAA;EACA,YAAA;EACA,aAAA;EACA,iBAAA;EACA,aAAA;CACA;AAEA;EACA,uBAAA;EACA,wBAAA;CACA","file":"SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&","sourcesContent":["<template>\n  <div v-on:wheel=\"zoomMain\">\n    <SPZ class=\"thumbnail\"\n      :zoomEnabled=\"false\"\n      :panEnabled=\"false\"\n      :controlIconsEnabled=\"false\"\n      :dblClickZoomEnabled=\"false\"\n      :preventMouseEventsDefault=\"true\"\n      v-on:svgpanzoom=\"thumbnailSPZcreated\"\n    >\n      <slot class=\"thumbnail\" />\n    </SPZ>\n    <Scope :bus=\"bus\" :mainSPZ=\"mainSPZ\" :thumbnailSPZ=\"thumbnailSPZ\" />\n  </div>\n</template>\n\n<style>\n  .thumbView {\n    z-index: 110;\n    background: white;\n  }\n\n  .thumbnail {\n    position: absolute;\n    bottom: 5px;\n    left: 5px;\n    width: 20%;\n    height: 30%;\n    margin: 3px;\n    padding: 3px;\n    overflow: hidden;\n    z-index: 120;\n  }\n\n  .thumbnail svg {\n    width: 100% !important;\n    height: 100% !important;\n  }\n</style>\n\n<script>\nimport Scope from './Scope.vue';\n\nexport default {\n  components: { Scope },\n  props: [ 'onThumbnailShown', 'mainSPZ', 'bus' ],\n  data: () => ({ thumbnailSPZ: null }),\n  beforeCreate: function () {\n    this.$options.components.SPZ = require('./SvgPanZoom.vue').default\n  },\n  methods: {\n    zoomMain(evt) {\n      this.mainSPZ[ event.deltaY < 0 ? 'zoomIn' : 'zoomOut' ]();\n    },\n    thumbnailSPZcreated(spz) {\n      this.thumbnailSPZ = spz;\n      this.bus.$emit( 'thumbnailCreated', spz );\n    },\n  },\n  mounted() {\n    if( this.onThumbnailShown ) {\n      this.onThumbnailShown();\n    }\n  }\n};\n</script>\n"],"sourceRoot":""}]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/poi/node_modules/css-loader/lib/css-base.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/poi/node_modules/css-loader/lib/css-base.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function(useSourceMap) {
-	var list = [];
-
-	// return the list of modules as css string
-	list.toString = function toString() {
-		return this.map(function (item) {
-			var content = cssWithMappingToString(item, useSourceMap);
-			if(item[2]) {
-				return "@media " + item[2] + "{" + content + "}";
-			} else {
-				return content;
-			}
-		}).join("");
-	};
-
-	// import a list of modules into the list
-	list.i = function(modules, mediaQuery) {
-		if(typeof modules === "string")
-			modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for(var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if(typeof id === "number")
-				alreadyImportedModules[id] = true;
-		}
-		for(i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if(mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if(mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-	var content = item[1] || '';
-	var cssMapping = item[3];
-	if (!cssMapping) {
-		return content;
-	}
-
-	if (useSourceMap && typeof btoa === 'function') {
-		var sourceMapping = toComment(cssMapping);
-		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
-		});
-
-		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-	}
-
-	return [content].join('\n');
-}
-
-// Adapted from convert-source-map (MIT)
-function toComment(sourceMap) {
-	// eslint-disable-next-line no-undef
-	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-
-	return '/*# ' + data + ' */';
+  return {
+    exports: scriptExports,
+    options: options
+  }
 }
 
 
@@ -3073,150 +3180,43 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functioal component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(/*! !../node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& */ "./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&");
+var content = __webpack_require__(/*! !../node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! ../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("5b685adc", content, false, {"sourceMap":true});
+var update = add("61cbfc00", content, false, {"sourceMap":true});
 // Hot Module Replacement
 if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&":
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader??ref--3-oneOf-1-1!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(/*! !../node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& */ "./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&");
+var content = __webpack_require__(/*! !../node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! ../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("06ed6394", content, false, {"sourceMap":true});
+var update = add("0293d2b8", content, false, {"sourceMap":true});
 // Hot Module Replacement
 if(false) {}
 
@@ -11483,7 +11483,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Scope.vue?vue&type=template&id=4c74502b&scoped=true& */ "./src/Scope.vue?vue&type=template&id=4c74502b&scoped=true&");
 /* harmony import */ var _Scope_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Scope.vue?vue&type=script&lang=js& */ "./src/Scope.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& */ "./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_poi_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -11492,7 +11492,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+var component = Object(_node_modules_poi_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Scope_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -11519,8 +11519,8 @@ component.options.__file = "src/Scope.vue"
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=script&lang=js& */ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=script&lang=js& */ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -11533,10 +11533,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-style-loader??ref--3-oneOf-1-0!../node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js?!./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-style-loader??ref--3-oneOf-1-0!../node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=style&index=0&id=4c74502b&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_style_index_0_id_4c74502b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -11549,10 +11549,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!cache-loader?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"165a645e-vue-loader-template"}!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=template&id=4c74502b&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"165a645e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=template&id=4c74502b&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!cache-loader?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a85af55-vue-loader-template"}!../node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./Scope.vue?vue&type=template&id=4c74502b&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a85af55-vue-loader-template\"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/Scope.vue?vue&type=template&id=4c74502b&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_Scope_vue_vue_type_template_id_4c74502b_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -11569,7 +11569,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SvgPanZoom.vue?vue&type=template&id=806a3476& */ "./src/SvgPanZoom.vue?vue&type=template&id=806a3476&");
 /* harmony import */ var _SvgPanZoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SvgPanZoom.vue?vue&type=script&lang=js& */ "./src/SvgPanZoom.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_poi_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -11577,7 +11577,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_poi_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _SvgPanZoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__["render"],
   _SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -11604,8 +11604,8 @@ component.options.__file = "src/SvgPanZoom.vue"
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoom.vue?vue&type=script&lang=js& */ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoom.vue?vue&type=script&lang=js& */ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -11618,10 +11618,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!cache-loader?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"165a645e-vue-loader-template"}!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoom.vue?vue&type=template&id=806a3476& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"165a645e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=template&id=806a3476&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!cache-loader?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a85af55-vue-loader-template"}!../node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoom.vue?vue&type=template&id=806a3476& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a85af55-vue-loader-template\"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoom.vue?vue&type=template&id=806a3476&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoom_vue_vue_type_template_id_806a3476___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -11662,7 +11662,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652& */ "./src/SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652&");
 /* harmony import */ var _SvgPanZoomThumbnail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SvgPanZoomThumbnail.vue?vue&type=script&lang=js& */ "./src/SvgPanZoomThumbnail.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& */ "./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_poi_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/poi/node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -11671,7 +11671,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+var component = Object(_node_modules_poi_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _SvgPanZoomThumbnail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__["render"],
   _SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -11698,8 +11698,8 @@ component.options.__file = "src/SvgPanZoomThumbnail.vue"
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=script&lang=js& */ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=script&lang=js& */ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -11712,10 +11712,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-style-loader??ref--3-oneOf-1-0!../node_modules/poi/node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& */ "./node_modules/vue-style-loader/index.js?!./node_modules/poi/node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_poi_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-style-loader??ref--3-oneOf-1-0!../node_modules/css-loader??ref--3-oneOf-1-1!../node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css& */ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/poi/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_index_js_ref_3_oneOf_1_1_node_modules_poi_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -11728,10 +11728,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!cache-loader?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"165a645e-vue-loader-template"}!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"165a645e-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!cache-loader?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0a85af55-vue-loader-template"}!../node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/poi/node_modules/vue-loader/lib??vue-loader-options!./SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"0a85af55-vue-loader-template\"}!./node_modules/poi/node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/poi/node_modules/vue-loader/lib/index.js?!./src/SvgPanZoomThumbnail.vue?vue&type=template&id=4cd02652&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_165a645e_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _cache_loader_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_0a85af55_vue_loader_template_node_modules_poi_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_poi_node_modules_vue_loader_lib_index_js_vue_loader_options_SvgPanZoomThumbnail_vue_vue_type_template_id_4cd02652___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
