@@ -8,6 +8,7 @@ import LayerStory      from './layers.stories.vue';
 import ThumbnailStory  from './thumbnail.stories.vue';
 import SingleStory     from './single.stories.vue';
 import Event           from './event.stories.vue';
+import ZoomStory       from './zoom.stories.vue';
 
 const stories = storiesOf('SvgPanZoom', module)
 .addDecorator( withKnobs )
@@ -15,4 +16,5 @@ const stories = storiesOf('SvgPanZoom', module)
 .add('event', () => Event )
 .add( 'layers', () => LayerStory )
 .add( 'thumbnail', () => ThumbnailStory )
+.add( 'zoom', () => ZoomStory )
 ;
