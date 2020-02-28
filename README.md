@@ -10,29 +10,29 @@ bugs. Use at your own risk, send patches for my eternal gratitude.
 ## Basic Use
 
 In a Single File Component:
+```vue
+ <template>
+     <SvgPanZoom 
+         style="width: 500px; height: 500px; border:1px solid black;"
+         :zoomEnabled="true"
+         :controlIconsEnabled="true"
+         :fit="false"
+         :center="true"
+     >
+         <svg>
+             <circle x="10" y="10" r="5" />
+         </svg>
+     </SvgPanZoom>`
+ </template>
 
-    <template>
-        <SvgPanZoom 
-            style="width: 500px; height: 500px; border:1px solid black;"
-            :zoomEnabled="true"
-            :controlIconsEnabled="true"
-            :fit="false"
-            :center="true"
-        >
-            <svg>
-                <circle x="10" y="10" r="5" />
-            </svg>
-        </SvgPanZoom>`
-    </template>
+ <script>
+     import SvgPanZoom from 'vue-svg-pan-zoom';
 
-    <script>
-        import SvgPanZoom from 'vue-svg-pan-zoom';
-
-        export default {
-            components: {  SvgPanZoom },
-        };
-    </script>
-
+     export default {
+         components: {  SvgPanZoom },
+     };
+ </script>
+```
 ### Notes
 
 Currently the `SvgPanZoom` component only works with a `svg` child -- `embed` won't work.
@@ -41,36 +41,36 @@ Currently the `SvgPanZoom` component only works with a `svg` child -- `embed` wo
 
 `SvgPanZoom` accepts as props all `svg-pan-zoom` options:
 
-    | attribute                 | default                |
-    | ---------                 | --------               |
-    | zoomEnabled               | true                   |
-    | controlIconsEnabled       | false                  |
-    | fit                       | true                   |
-    | panEnabled                | true                   |
-    | dblClickZoomEnabled       | true                   |
-    | mouseWheelZoomEnabled     | true                   |
-    | preventMouseEventsDefault | true                   |
-    | contain                   | false                  |
-    | center                    | true                   |
-    | viewportSelector          | .svg-pan-zoom_viewport |
-    | zoomScaleSensitivity      | 0.2                    |
-    | minZoom                   | 0.5                    |
-    | maxZoom                   | 10                     |
-    | refreshRate               | auto                   |
-    | beforeZoom                |                        |
-    | onZoom                    |                        |
-    | beforePan                 |                        |
-    | onPan                     |                        |
-    | onUpdatedCTM              |                        |
-    | customEventsHandler       |                        |
-    | eventsListenerElement     |                        |
+| attribute                 | default                |
+| ---------                 | --------               |
+| zoomEnabled               | `true`                   |
+| controlIconsEnabled       | `false`                  |
+| fit                       | `true`                   |
+| panEnabled                | `true`                   |
+| dblClickZoomEnabled       | `true`                   |
+| mouseWheelZoomEnabled     | `true`                   |
+| preventMouseEventsDefault | `true`                   |
+| contain                   | `false`                  |
+| center                    | `true`                   |
+| viewportSelector          | `.svg-pan-zoom_viewport` |
+| zoomScaleSensitivity      | `0.2`                    |
+| minZoom                   | `0.5`                    |
+| maxZoom                   | `10`                     |
+| refreshRate               | `auto`                   |
+| beforeZoom                |                        |
+| onZoom                    |                        |
+| beforePan                 |                        |
+| onPan                     |                        |
+| onUpdatedCTM              |                        |
+| customEventsHandler       |                        |
+| eventsListenerElement     |                        |
 
 ### svgpanzoom object
 
 To access the created `svgpanzoom` javascript object, you can 
 listen to the `svgpanzoom` event on the `SvgPanZoom` component.
 
-```js
+```vue
 <template>
     <div>
         <input type="button" value="center me" @click="center" />
@@ -108,24 +108,25 @@ export default {
 
 In a Single File Component:
 
-    <template>
-        <SvgPanZoom
-            style="width: 300px; height: 500px; border:1px solid black; "
-        >
-            <svg> ... </svg>
-            <svg slot="thumbnail"> ...  </svg>
-        </SvgPanZoom>
-    </template>
+```vue
+ <template>
+     <SvgPanZoom
+         style="width: 300px; height: 500px; border:1px solid black; "
+     >
+         <svg> ... </svg>
+         <svg slot="thumbnail"> ...  </svg>
+     </SvgPanZoom>
+ </template>
 
-    <script>
-        import SvgPanZoom from 'vue-svg-pan-zoom';
+ <script>
+     import SvgPanZoom from 'vue-svg-pan-zoom';
 
-        export default {
-            components: { SvgPanZoom },
-        };
+     export default {
+         components: { SvgPanZoom },
+     };
 
-    </script>
-
+ </script>
+```
 Just like the main `SvgPanZoom`component, the `thumbnail` slot needs to 
 be assigned to a `svg` node -- `embed` won't work.
 
@@ -134,6 +135,7 @@ be assigned to a `svg` node -- `embed` won't work.
 To run [Storybook](https://github.com/storybooks/storybook) stories duplicating the demos of
 the main `SVG-Pan-Zoom` project, do
 
-    $ yarn install --dev
-    $ yarn storybook
-
+```fish
+$ yarn install --dev
+$ yarn storybook
+```
