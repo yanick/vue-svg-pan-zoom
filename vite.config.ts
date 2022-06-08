@@ -1,9 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import * as path from "path";
-import typescript from '@rollup/plugin-typescript';
-
-const isExternal = (id: string) => !id.startsWith(".") && !path.isAbsolute(id);
 
 // https://vitejs.dev/config/
 export default defineConfig({

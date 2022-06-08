@@ -177,13 +177,6 @@ onMounted(() => {
 
   emit('created', spz.value)
 })
-
-onUnmounted(() => {
-  // spz.value?.destroy()
-  // spz.value?.reset()
-  console.log('Siema')
-  console.log(spz)
-})
 </script>
 
 <style>

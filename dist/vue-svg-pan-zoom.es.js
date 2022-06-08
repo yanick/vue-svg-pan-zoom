@@ -17,7 +17,7 @@ var __spreadValues = (a, b) => {
   return a;
 };
 var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
-import { defineComponent, ref, onMounted, openBlock, createElementBlock, createElementVNode, createVNode, withCtx, renderSlot, createBlock, createCommentVNode, useSlots, onUnmounted } from "vue";
+import { defineComponent, ref, onMounted, openBlock, createElementBlock, createElementVNode, createVNode, withCtx, renderSlot, createBlock, createCommentVNode, useSlots } from "vue";
 var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
 var uniwheel = function() {
   var prefix = "", _addEventListener, _removeEventListener, support, fns = [];
@@ -1448,10 +1448,6 @@ const _sfc_main = defineComponent({
         return;
       spz.value = svgPanZoom_1(selector, options.value);
       emit("created", spz.value);
-    });
-    onUnmounted(() => {
-      console.log("Siema");
-      console.log(spz);
     });
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", _hoisted_1, [
