@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "outDir": "dist",
+    "rootDir": ".",
     "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -10,6 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+    "declaration": true,
     "lib": ["esnext", "dom"],
     "types": ["vite/client"],
     "skipLibCheck": true

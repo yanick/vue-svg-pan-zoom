@@ -2,7 +2,15 @@
   "name": "vue-svg-pan-zoom",
   "version": "2.0.0",
   "description": "Vue component for svg-pan-zoom",
-  "main": "dist/index.js",
+  "main": "dist/vue-svg-pan-zoom.umd.js",
+  "module": "dist/vue-svg-pan-zoom.es.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-svg-pan-zoom.es.js",
+      "require": "./dist/vue-svg-pan-zoom.umd.js"
+    }
+  },
   "author": "Yanick Champoux",
   "license": "MIT",
   "keywords": [
@@ -35,7 +43,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
