@@ -1,6 +1,4 @@
-<template>
-<svg id="demo-tiger" xmlns="http://www.w3.org/2000/svg" width="900px"
-    height="900px" viewBox="0 0 900 900" version="1.1" style="display: inline; width: inherit; min-width: inherit; max-width: inherit; height: inherit; min-height: inherit; max-height: inherit; " >
+export default `<svg id="demo-tiger" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 900 900" version="1.1">
  <g id="g4" fill="none" transform="matrix(1.7656463,0,0,1.7656463,324.90716,255.00942)">
   <g id="g6" stroke-width="0.17200001" stroke="#000" fill="#FFF">
    <path id="path8" d="m-122.3,84.285s0.1,1.894-0.73,1.875c-0.82-0.019-17.27-48.094-37.8-45.851,0,0,17.78-7.353,38.53,43.976z"/>
@@ -723,9 +721,4 @@
    <path id="path964" d="m20.5,344.5s1.5-11-10,2"/>
   </g>
  </g>
-</svg>
-</template>
-
-<script>
-export default {}
-</script>
+</svg>`

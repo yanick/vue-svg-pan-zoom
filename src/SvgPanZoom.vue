@@ -1,78 +1,186 @@
 <template>
-<div>
+  <div class="svg-pan-zoom">
     <slot />
 
-    <SvgPanZoomThumbnail v-if="has_thumbnail"
-        :onThumbnailShown="onThumbnailShown"
-        :mainSPZ="spz"
-        :bus="bus"
+    <SvgPanZoomThumbnail
+      v-if="!!$slots.thumbnail && !!spz"
+      @thumbnailCreated="$emit('thumbnailCreated', $event)"
+      :mainSPZ="spz"
     >
-        <slot name="thumbnail" />
+      <slot name="thumbnail" />
     </SvgPanZoomThumbnail>
-
-</div>
+  </div>
 </template>
 
-
-<script>
+<script lang="ts" setup>
 import svg_pan_zoom from 'svg-pan-zoom';
-
-import props from './props';
-
-import { EventBus } from './EventBus';
-
 import SvgPanZoomThumbnail from './SvgPanZoomThumbnail.vue';
+import { defineProps, onMounted, onUnmounted, PropType, ref, RendererNode, useSlots, VNode } from 'vue';
 
-import { SvgPanZoomApi } from './SvgPanZoomApi';
+export interface Props {
+  /**
+   * can be querySelector string or SVGElement (default enabled)
+   * @type {string|HTMLElement|SVGElement}
+   */
+  viewportSelector?: string|HTMLElement|SVGElement;
+  /**
+   * enable or disable panning (default enabled)
+   * @type {boolean}
+   */
+  panEnabled?: boolean;
+  /**
+   * insert icons to give user an option in addition to mouse events to control pan/zoom (default disabled)
+   * @type {boolean}
+   */
+  controlIconsEnabled?: boolean;
+  /**
+   * enable or disable zooming (default enabled)
+   * @type {boolean}
+   */
+  zoomEnabled?: boolean;
+  /**
+   * enable or disable zooming by double clicking (default enabled)
+   * @type {boolean}
+   */
+  dblClickZoomEnabled?: boolean;
+  /**
+   * enable or disable zooming by scrolling (default enabled)
+   * @type {boolean}
+   */
+  mouseWheelZoomEnabled?: boolean;
+  /**
+   * prevent mouse events to bubble up (default enabled)
+   * @type {boolean}
+   */
+  preventMouseEventsDefault?: boolean;
+  zoomScaleSensitivity?: number; // Zoom sensitivity (Default 0.2)
+  minZoom?: number; // Minimum Zoom level (Default 0.5)
+  maxZoom?: number; // Maximum Zoom level  (Default 10)
+  fit?: boolean; // enable or disable viewport fit in SVG (default true)
+  contain?: boolean; // (default true)
+  center?: boolean; // enable or disable viewport centering in SVG (default true)
+  refreshRate?: number | "auto"; // (default 'auto')
+}
 
-export default {
-  components: { SvgPanZoomThumbnail },
-  props,
-  computed: {
-    has_thumbnail: function() { return this.$slots.thumbnail },
-    options: function() {
-      let options = {};
+export interface Events {
+  (event: 'beforeZoom', oldScale: number, newScale: number): void;
+  (event: 'onZoom', newScale: number): void;
+  (event: 'beforePan', oldPan: SvgPanZoom.Point, newPan: SvgPanZoom.Point): void;
+  (event: 'onPan', newPan: SvgPanZoom.Point): void;
+  (event: 'onUpdatedCTM', newCTM: SVGMatrix): void;
+  /**
+   * Emitted when svg pan zoom instance is created. Returns created instance
+   */
+  (event: 'created', spz: SvgPanZoom.Instance): void
+  /**
+   * Emitted when svg pan zoom thumbnail is created. Returns created instance
+   */
+  (event: 'thumbnailCreated', spz: SvgPanZoom.Instance): void
+}
 
-      const is_defined = k => this[k] !== undefined;
-
-      Object.keys(props)
-        .filter( is_defined )
-        .forEach( k => options[k] = this[k] );
-
-      return options;
-    }
+const props = defineProps({
+  viewportSelector: {
+    type: [String, Object] as PropType<string|HTMLElement|SVGElement>,
+    default: '.svg-pan-zoom'
   },
-  data: () => ({
-    spz: null,
-    bus: EventBus()
-  }),
-  mounted: function() {
-    let options = {};
-
-    Object.keys(props).filter( k => this[k] !== undefined ).forEach( k => options[k] = this[k] );
-
-    options.onZoom = (...args) => {
-      this.bus.$emit( 'mainZoom' );
-      if( this.onZoom ) this.onZoom(args);
-    };
-
-    options.onPan = (...args) => {
-      this.bus.$emit( 'mainPan' );
-      if( this.onPan ) this.onPan(args);
-    };
-
-    this.spz = svg_pan_zoom( this.$slots.default[0].elm , options );
-
-    this.$emit( 'svgpanzoom', this.spz );
+  panEnabled: {
+    type: Boolean,
+    default: true
   },
-  methods: {
-    zoom: function( v ){
-      this.spz.zoom( v );
-    },
-    zoomBy: function( v ){
-      this.spz.zoomBy( v );
-    }
+  controlIconsEnabled: {
+    type: Boolean,
+    default: false
+  },
+  zoomEnabled: {
+    type: Boolean,
+    default: true
+  },
+  dblClickZoomEnabled: {
+    type: Boolean,
+    default: true
+  },
+  mouseWheelZoomEnabled: {
+    type: Boolean,
+    default: true
+  },
+  preventMouseEventsDefault: {
+    type: Boolean,
+    default: true
+  },
+  zoomScaleSensitivity: {
+    type: Number,
+    default: 0.2
+  },
+  minZoom: {
+    type: Number,
+    default: 0.5
+  },
+  maxZoom: {
+    type: Number,
+    default: 10
+  },
+  fit: {
+    type: Boolean,
+    default: true
+  },
+  contain: {
+    type: Boolean,
+    default: true
+  },
+  center: {
+    type: Boolean,
+    default: true
+  },
+  refreshRate: {
+    type: [Number, String] as PropType<Number | 'auto'>,
+    default: 'auto'
   }
-};
+})
+const emit = defineEmits<Events>()
 
+const slots = useSlots()
+const options = ref<SvgPanZoom.Options>({})
+
+Object.keys(props)
+  .filter(k => props[k as keyof Props] !== undefined)
+  .forEach(k => {
+    options.value = {
+      ...options.value,
+      [k]: props[k as keyof Props]
+    }
+  })
+
+const spz = ref<SvgPanZoom.Instance | null>(null)
+
+const getSvgSelector = (instance: VNode): RendererNode | false => {
+  if (instance.el && instance.el.tagName === 'svg') return instance.el
+
+  if (!instance.children || !Array.isArray(instance.children)) return false
+  for (const child of instance.children) {
+    const selector = getSvgSelector(child as VNode)
+
+    if (selector) return selector
+  }
+
+  return false
+}
+
+onMounted(() => {
+  options.value.onZoom = (newScale: number) => emit('onZoom', newScale)
+  options.value.onPan = (newPan: SvgPanZoom.Point) => emit('onPan', newPan)
+
+  if (!slots['default']) return
+  const selector = getSvgSelector(slots['default']()[0])
+
+  if (!selector) return
+  spz.value = svg_pan_zoom(selector as any, options.value);
+
+  emit('created', spz.value)
+})
 </script>
+
+<style>
+.svg-pan-zoom {
+  position: relative;
+}
+</style>

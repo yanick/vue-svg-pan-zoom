@@ -1,8 +1,16 @@
 {
   "name": "vue-svg-pan-zoom",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Vue component for svg-pan-zoom",
-  "main": "dist/index.js",
+  "main": "dist/vue-svg-pan-zoom.umd.js",
+  "module": "dist/vue-svg-pan-zoom.es.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-svg-pan-zoom.es.js",
+      "require": "./dist/vue-svg-pan-zoom.umd.js"
+    }
+  },
   "author": "Yanick Champoux",
   "license": "MIT",
   "keywords": [
@@ -14,26 +22,30 @@
     "url": "https://github.com/yanick/vue-svg-pan-zoom/issues"
   },
   "devDependencies": {
-    "@babel/cli": "7.4.3",
-    "@babel/core": "7.4.3",
-    "@babel/preset-env": "7.4.3",
-    "@storybook/addon-actions": "5.0.10",
-    "@storybook/addon-knobs": "5.0.10",
-    "@storybook/addons": "5.0.10",
-    "@storybook/vue": "5.0.10",
-    "babel-loader": "8.0.5",
-    "babel-preset-vue": "2.0.2",
-    "poi": "12.6.6",
-    "vue": "2.5.13",
-    "vue-loader": "15.7.0",
-    "vue-template-compiler": "2.5.13"
+    "@babel/core": "^7.18.2",
+    "@storybook/addon-actions": "^6.5.7",
+    "@storybook/addon-essentials": "^6.5.7",
+    "@storybook/addon-interactions": "^6.5.7",
+    "@storybook/addon-links": "^6.5.7",
+    "@storybook/builder-vite": "^0.1.36",
+    "@storybook/testing-library": "^0.0.11",
+    "@storybook/vue3": "^6.5.7",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "babel-loader": "^8.2.5",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue": "^3.2.25",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^0.34.7"
   },
   "dependencies": {
     "svg-pan-zoom": "3.6.0"
   },
   "scripts": {
-    "build": "poi src/index.js --format cjs -d dist/",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
