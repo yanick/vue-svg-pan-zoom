@@ -1,5 +1,9 @@
 Release history for vue-svg-pan-zoom
 
+v2.0.0 TODO: Date
+
+- update package to vue 3.
+
 v1.1.0 2019-09-28
 
 - exposes some of svg-pan-zoom api. (alessiocarrafa, GH#7)
