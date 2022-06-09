@@ -1,7 +1,8 @@
 <template>
   <div class="svg-pan-zoom">
-    <slot />
-
+    <div class="svg-pan-zoom__default" ref="defaultSlot">
+      <slot />
+    </div>
     <SvgPanZoomThumbnail
       v-if="!!$slots.thumbnail && !!spz"
       @thumbnailCreated="$emit('thumbnailCreated', $event)"
@@ -138,6 +139,8 @@ const props = defineProps({
 })
 const emit = defineEmits<Events>()
 
+const defaultSlot = ref<HTMLElement | null>(null)
+
 const slots = useSlots()
 const options = ref<SvgPanZoom.Options>({})
 
@@ -152,12 +155,13 @@ Object.keys(props)
 
 const spz = ref<SvgPanZoom.Instance | null>(null)
 
-const getSvgSelector = (instance: VNode): RendererNode | false => {
-  if (instance.el && instance.el.tagName === 'svg') return instance.el
+const getSvgSelector = (instance: Element): Element | false => {
+  if (instance && instance.tagName === 'svg') return instance
+  const children = Array.from(instance.children)
+  if (!children) return false
 
-  if (!instance.children || !Array.isArray(instance.children)) return false
-  for (const child of instance.children) {
-    const selector = getSvgSelector(child as VNode)
+  for (const child of children) {
+    const selector = getSvgSelector(child)
 
     if (selector) return selector
   }
@@ -169,11 +173,11 @@ onMounted(() => {
   options.value.onZoom = (newScale: number) => emit('onZoom', newScale)
   options.value.onPan = (newPan: SvgPanZoom.Point) => emit('onPan', newPan)
 
-  if (!slots['default']) return
-  const selector = getSvgSelector(slots['default']()[0])
+  if (!(slots['default'] && defaultSlot.value)) return
+  const selector = getSvgSelector(defaultSlot.value)
 
   if (!selector) return
-  spz.value = svg_pan_zoom(selector as any, options.value);
+  spz.value = svg_pan_zoom(selector as HTMLElement, options.value);
 
   emit('created', spz.value)
 })
@@ -182,5 +186,10 @@ onMounted(() => {
 <style>
 .svg-pan-zoom {
   position: relative;
+}
+
+.svg-pan-zoom__default {
+  width: 100%;
+  height: 100%;
 }
 </style>
