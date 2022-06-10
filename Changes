@@ -1,8 +1,12 @@
 Release history for vue-svg-pan-zoom
 
+v2.1.0 2022-06-10
+
+- fix bug preventing to mount svgpanzoom (GH#16, KrosFire)
+
 v2.0.0 2022-06-08
 
-- update package to vue 3.
+- update package to vue 3. (KrosFire)
 
 v1.1.0 2019-09-28
 

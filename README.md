@@ -41,7 +41,7 @@ Currently the `SvgPanZoom` component only works with a `svg` child -- `embed` wo
 
 ### Props
 
-`SvgPanZoom` accepts as props all `svg-pan-zoom` options:
+`SvgPanZoom` accepts as props most `svg-pan-zoom` options:
 
 | attribute                 | default                  |
 | ------------------------- | ------------------------ |
@@ -59,18 +59,21 @@ Currently the `SvgPanZoom` component only works with a `svg` child -- `embed` wo
 | minZoom                   | `0.5`                    |
 | maxZoom                   | `10`                     |
 | refreshRate               | `auto`                   |
-| beforeZoom                |                          |
-| onZoom                    |                          |
-| beforePan                 |                          |
-| onPan                     |                          |
-| onUpdatedCTM              |                          |
-| customEventsHandler       |                          |
-| eventsListenerElement     |                          |
+
+| event                     | arguments                                                  |
+| ------------------------- | ---------------------------------------------------------- |
+| beforeZoom                | `(oldScale: number, newScale: number)`                     |
+| onZoom                    | `(newScale: number)`                                       |
+| beforePan                 | `(oldPan: SvgPanZoom.Point, newPan: SvgPanZoom.Point)`     |
+| onPan                     | `(newPan: SvgPanZoom.Point)`                               |
+| onUpdatedCTM              | `(newCTM: SVGMatrix)`                                      |
+| created                   | `(spz: SvgPanZoom.Instance)`                               |
+| thumbnailCreated          | `(spz: SvgPanZoom.Instance)`                               |
 
 ### svgpanzoom object
 
 To access the created `svgpanzoom` javascript object, you can
-listen to the `svgpanzoom` event on the `SvgPanZoom` component.
+listen to the `created` event on the `SvgPanZoom` component.
 
 ```vue
 <template>
@@ -79,7 +82,7 @@ listen to the `svgpanzoom` event on the `SvgPanZoom` component.
     <SvgPanZoom
       style="width: 500px; height: 500px; border:1px solid black;"
       :fit="false"
-      @svgpanzoom="registerSvgPanZoom"
+      @created="registerSvgPanZoom"
     >
       <RawTiger />
     </SvgPanZoom>
@@ -130,7 +133,7 @@ export default {
 </script>
 ```
 
-Just like the main `SvgPanZoom`component, the `thumbnail` slot needs to
+Just like the main `SvgPanZoom` component, the `thumbnail` slot needs to
 be assigned to a `svg` node -- `embed` won't work.
 
 ### Storybook demos
