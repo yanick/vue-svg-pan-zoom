@@ -59,6 +59,7 @@ Currently the `SvgPanZoom` component only works with a `svg` child -- `embed` wo
 | minZoom                   | `0.5`                    |
 | maxZoom                   | `10`                     |
 | refreshRate               | `auto`                   |
+| customEventsHandler       | `null`                   |
 
 | event                     | arguments                                                  |
 | ------------------------- | ---------------------------------------------------------- |

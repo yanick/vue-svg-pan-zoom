@@ -1353,7 +1353,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   }
 });
 var SvgPanZoomThumbnail = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-093287c4"]]);
-var SvgPanZoom_vue_vue_type_style_index_0_lang = /* @__PURE__ */ (() => ".svg-pan-zoom{position:relative}\n")();
+var SvgPanZoom_vue_vue_type_style_index_0_lang = /* @__PURE__ */ (() => ".svg-pan-zoom{position:relative}.svg-pan-zoom__default{width:100%;height:100%}\n")();
 const _hoisted_1 = { class: "svg-pan-zoom" };
 const _sfc_main = defineComponent({
   __name: "SvgPanZoom",
@@ -1413,11 +1413,16 @@ const _sfc_main = defineComponent({
     refreshRate: {
       type: [Number, String],
       default: "auto"
+    },
+    customEventsHandler: {
+      type: Object,
+      default: null
     }
   },
   emits: ["beforeZoom", "onZoom", "beforePan", "onPan", "onUpdatedCTM", "created", "thumbnailCreated"],
   setup(__props, { emit }) {
     const props = __props;
+    const defaultSlot = ref(null);
     const slots = useSlots();
     const options = ref({});
     Object.keys(props).filter((k) => props[k] !== void 0).forEach((k) => {
@@ -1427,11 +1432,12 @@ const _sfc_main = defineComponent({
     });
     const spz = ref(null);
     const getSvgSelector = (instance) => {
-      if (instance.el && instance.el.tagName === "svg")
-        return instance.el;
-      if (!instance.children || !Array.isArray(instance.children))
+      if (instance && instance.tagName === "svg")
+        return instance;
+      const children = Array.from(instance.children);
+      if (!children)
         return false;
-      for (const child of instance.children) {
+      for (const child of children) {
         const selector = getSvgSelector(child);
         if (selector)
           return selector;
@@ -1441,9 +1447,9 @@ const _sfc_main = defineComponent({
     onMounted(() => {
       options.value.onZoom = (newScale) => emit("onZoom", newScale);
       options.value.onPan = (newPan) => emit("onPan", newPan);
-      if (!slots["default"])
+      if (!(slots["default"] && defaultSlot.value))
         return;
-      const selector = getSvgSelector(slots["default"]()[0]);
+      const selector = getSvgSelector(defaultSlot.value);
       if (!selector)
         return;
       spz.value = svgPanZoom_1(selector, options.value);
@@ -1451,7 +1457,13 @@ const _sfc_main = defineComponent({
     });
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", _hoisted_1, [
-        renderSlot(_ctx.$slots, "default"),
+        createElementVNode("div", {
+          class: "svg-pan-zoom__default",
+          ref_key: "defaultSlot",
+          ref: defaultSlot
+        }, [
+          renderSlot(_ctx.$slots, "default")
+        ], 512),
         !!_ctx.$slots.thumbnail && !!spz.value ? (openBlock(), createBlock(SvgPanZoomThumbnail, {
           key: 0,
           onThumbnailCreated: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("thumbnailCreated", $event)),
