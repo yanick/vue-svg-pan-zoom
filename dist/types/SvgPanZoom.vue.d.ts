@@ -42,6 +42,12 @@ export interface Props {
     contain?: boolean;
     center?: boolean;
     refreshRate?: number | "auto";
+    customEventsHandler?: CustomEventsHandler;
+}
+export interface CustomEventsHandler {
+    haltEventListeners?: Array<string>;
+    init: (options: object) => void;
+    destroy: () => void;
 }
 export interface Events {
     (event: 'beforeZoom', oldScale: number, newScale: number): void;
@@ -115,6 +121,10 @@ declare const _default: import("vue").DefineComponent<{
         type: PropType<Number | "auto">;
         default: string;
     };
+    customEventsHandler: {
+        type: ObjectConstructor;
+        default: null;
+    };
 }, {}, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {
     beforeZoom: (oldScale: number, newScale: number) => void;
 } & {
@@ -186,6 +196,10 @@ declare const _default: import("vue").DefineComponent<{
         type: PropType<Number | "auto">;
         default: string;
     };
+    customEventsHandler: {
+        type: ObjectConstructor;
+        default: null;
+    };
 }>> & {
     onBeforeZoom?: ((oldScale: number, newScale: number) => any) | undefined;
     onOnZoom?: ((newScale: number) => any) | undefined;
@@ -209,5 +223,6 @@ declare const _default: import("vue").DefineComponent<{
     contain: boolean;
     center: boolean;
     refreshRate: Number | "auto";
+    customEventsHandler: Record<string, any>;
 }>;
 export default _default;

@@ -61,6 +61,13 @@ export interface Props {
   contain?: boolean; // (default true)
   center?: boolean; // enable or disable viewport centering in SVG (default true)
   refreshRate?: number | "auto"; // (default 'auto')
+  customEventsHandler?: CustomEventsHandler;
+}
+
+export interface CustomEventsHandler {
+  haltEventListeners?: Array<string>,
+  init: (options: object) => void,
+  destroy: () => void
 }
 
 export interface Events {
@@ -135,6 +142,10 @@ const props = defineProps({
   refreshRate: {
     type: [Number, String] as PropType<Number | 'auto'>,
     default: 'auto'
+  },
+  customEventsHandler: {
+    type: Object,
+    default: null
   }
 })
 const emit = defineEmits<Events>()

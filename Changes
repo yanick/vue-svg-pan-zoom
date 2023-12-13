@@ -1,5 +1,9 @@
 Release history for vue-svg-pan-zoom
 
+v2.2.0 2023-12-13
+
+- add support of customEventsHandler prop (tasiot)
+
 v2.1.0 2022-06-10
 
 - fix bug preventing to mount svgpanzoom (GH#16, KrosFire)
